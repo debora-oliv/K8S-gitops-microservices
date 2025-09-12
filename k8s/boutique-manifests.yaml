@@ -367,7 +367,7 @@ metadata:
   labels:
     app: frontend
 spec:
-  type: NodePort
+  type: NodePort  #Alterado de LoadBalancer para NodePort
   selector:
     app: frontend
   ports:
